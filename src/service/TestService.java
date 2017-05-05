@@ -1,0 +1,25 @@
+package service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestService {
+
+	public String test(){
+		return "TEST";
+	}
+	
+	public double conversion(double mt){
+		return 5*mt;
+	}
+	
+	public List<String> getInfos(){
+		List<String> liste = new ArrayList<String>();
+		liste.add("A");
+		liste.add("B");
+		liste.add("C");
+		liste.add("D");
+		
+		return liste;
+	}
+}
